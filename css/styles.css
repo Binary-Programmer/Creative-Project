@@ -4,6 +4,20 @@
 	text-align: center;
 }
 
+.panel-text:hover {
+	color:#6C007F !important;
+}
+
+.panel-text-active {
+	color: #6C007F !important;
+	text-align: center;
+}
+
+.panel-text-static {
+	color: #C000DD !important;
+	text-align: center;
+}
+
 .panel-color {
 	/*#C000DD*/
 	background-color: #FFFF82 !important;
