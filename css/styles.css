@@ -1,0 +1,14 @@
+.panel-text {
+	/*#FFEB00*/
+	color: #C000DD !important;
+	text-align: center;
+}
+
+.panel-color {
+	/*#C000DD*/
+	background-color: #FFFF82 !important;
+}
+
+.footer-panel {
+	padding: 1%;
+}
