@@ -32,7 +32,15 @@
 }
 
 .fit-img {
-	height: 10%;
+	height: 10% !important;
+}
+
+.full-img {
+	width: 100% !important;
+}
+
+.centered {
+	text-align: center !important;
 }
 
 .profile {
