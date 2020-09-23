@@ -1,3 +1,17 @@
+html {
+	margin: 0 !important;
+	padding: 0 !important;
+    min-height: 100vh !important;
+}
+body {
+	min-height: 100vh !important;
+	position: relative !important;
+}
+
+.content {
+	padding-bottom: 8em !important; /* space for footer */
+}
+
 .panel-text {
 	/*#FFEB00*/
 	color: #C000DD !important;
@@ -25,6 +39,10 @@
 
 .footer-panel {
 	padding: 1%;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
 }
 
 .banner {
