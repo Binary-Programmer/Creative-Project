@@ -57,6 +57,10 @@ body {
 	width: 100% !important;
 }
 
+#join-img {
+	width: 35em !important;
+}
+
 .centered {
 	text-align: center !important;
 }
