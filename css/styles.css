@@ -4,13 +4,13 @@ html {
 }
 
 body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+	display: flex !important;
+	min-height: 100vh !important;
+	flex-direction: column !important;
 }
 
 .content {
-	flex-grow: 1;
+	flex-grow: 1 !important;
 }
 
 .panel-text {
@@ -38,14 +38,6 @@ body {
 	background-color: #FFFF82 !important;
 }
 
-.footer-panel {
-	padding: 1%;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	position: absolute;
-}
-
 .banner {
 	max-width: 100%;
 }
@@ -56,10 +48,6 @@ body {
 
 .full-img {
 	width: 100% !important;
-}
-
-#join-img {
-	width: 35em !important;
 }
 
 .centered {

@@ -4,14 +4,14 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+		
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="/css/styles.css"/>
-
+		
 		<title>Baking Night</title>
 	</head>
-
+	
 	<body>
 		<div class="container-full d-flex justify-content-center">
 			<a href='/pages/index.html'>
@@ -39,160 +39,46 @@
 				</li>
 			</ul>
 		</nav>
-
+		
 		<!-- Content HERE -->
 		<div class="container content pt-5">
 			<h1 class='centered'>Recipe Search</h1>
-			<form id="search">
-				<input id="ingredients">
-				<input type="submit" value="Go">
-			</form>
-			<img src="/images/ingredients.jpg" alt="Ingredients" style="width:100%;">
+			<div class='container centered'>
+				<div class="row d-flex justify-content-center">
+					<div class="col-sm">
+						<img class="fit-img" src="/images/pexels-fotografierende-1194775.jpg">
+					</div>
+					<div class='col-sm'>
+						<form id="search">
+							<input id="ingredients">
+							<input type="submit" value="Go">
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- There is a lot of white space here rendered on the page. I don't know why -->
+			<div id="section1" class="container-fluid table-responsive" style="padding-top:70px;padding-bottom:70px;background-color:white">
+				<h3></h2>
+				<p></p>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Ingredients</th>
+							<th>Site</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
-
-
-		<div id="section1" class="container-fluid table-responsive" style="padding-top:70px;padding-bottom:70px;background-color:white">
-			<h3></h2>
-			<p></p>
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<th></th>
-						<th></th>
-						<th></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div id="section2" class="container-fluid table-responsive" style="padding-top:70px;padding-bottom:70px;background-color:white">
-			<h3></h2>
-			<p></p>
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<th></th>
-						<th></th>
-						<th></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div id="section3" class="container-fluid table-responsive" style="padding-top:70px;padding-bottom:70px;background-color:white">
-			<h3></h2>
-			<p></p>
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<th></th>
-						<th></th>
-						<th></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div id="section4" class="container-fluid table-responsive" style="padding-top:70px;padding-bottom:70px;background-color:white">
-			<h3></h2>
-			<p></p>
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<th></th>
-						<th></th>
-						<th></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-
-</div>
-
-
-
+		
 		<!--Footer-->
 		<div class="container-full panel-color footer-panel">
 			<p class='panel-text'>
@@ -200,7 +86,7 @@
 				<a href='https://github.com/Binary-Programmer/Creative-Project' class='panel-text-static'>github.com/Creative-Project</a>
 			</p>
 		</div>
-
+		
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
