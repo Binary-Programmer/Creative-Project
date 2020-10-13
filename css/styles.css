@@ -1,15 +1,16 @@
 html {
 	margin: 0 !important;
 	padding: 0 !important;
-    min-height: 100vh !important;
 }
+
 body {
-	min-height: 100vh !important;
-	position: relative !important;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 .content {
-	padding-bottom: 8em !important; /* space for footer */
+	flex-grow: 1;
 }
 
 .panel-text {
