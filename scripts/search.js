@@ -18,11 +18,6 @@ async function loadRecipes(ingredients) {
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
 		`;
 	for(let recipe of json.results) {
 		everything += "<tr>";
