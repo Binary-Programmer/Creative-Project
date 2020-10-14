@@ -1,4 +1,4 @@
-window.onload = loadRecipes;
+window.onload = loadRecipes("");
 
 document.getElementById("search").addEventListener("submit", function(event) {
 	event.preventDefault();
@@ -28,7 +28,7 @@ async function loadRecipes(ingredients) {
 		everything += "<tr>";
 		everything += ("<td>" + recipe.title + "</td>");
 		everything += ("<td>" + recipe.ingredients + "</td>");
-		everything += ("<td>" + recipe.href + "</td>");
+		everything += ("<td><a href='" + recipe.href + "'>" + recipe.href + "</a></td>");
 		everything += "</tr>";
 	}
 	everything += `
@@ -42,6 +42,8 @@ async function loadRecipes(ingredients) {
 async function queryRecipes(ingredients) {
 	let myurl = "https://cors-anywhere.herokuapp.com";
 	myurl += "/http://www.recipepuppy.com/api/?q=dessert&p=1";
+	if(ingredients != "")
+		myurl += ('&i=' + ingredients); 
 	console.log(myurl);
 	let result = await fetch(myurl, {mode: 'cors'})
 	.then(function(response) {
